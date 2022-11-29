@@ -21,7 +21,14 @@ class AsyncTest {
       new Ceo("ceo_2", "Sundar"),
       new Ceo("ceo_3", "Bill")
   );
+  public static void setCeos(String ceo_id , String ceoNom){
+     this.ceos = List.of(new Ceo(ceo_id , ceoNom);
+  }
 
+  public static void setEnterprises(String ent_id,String entrepriseNom,String ceo_id){
+      this.enterprises = List.of(new Enterprise(ent_id , entrepriseNom , ceo_id);
+  }
+  
   public static CompletableFuture<Option<Ceo>> getCeoById(String ceo_id) {
     return null;
   }
