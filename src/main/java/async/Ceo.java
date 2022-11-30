@@ -11,7 +11,7 @@ class Ceo {
   }
   
  public getceo_id(){
-   return this.id = id;
+   return this.id ;
  }
 
   public String toString() {
