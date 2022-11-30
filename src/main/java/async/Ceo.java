@@ -9,6 +9,10 @@ class Ceo {
     this.id = id;
     this.name = name;
   }
+  
+ public getceo_id(){
+   return this.id = id;
+ }
 
   public String toString() {
     return "Ceo_" + name;
