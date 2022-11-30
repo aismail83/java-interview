@@ -14,14 +14,27 @@ class CollectionTest {
    * operation : x -> ((x * 2) + 3) ^ 5
    */
   public static List<Double> compute1(List<Integer> input) {
-    return null;
+    if(input = null){
+       return null;
+     }
+    else{
+      return input.map( s -> ((s* 2) + 3) ** 5));
+    }
   }
 
   /**
    * operation : abc -> AbcAbc
    */
   public static List<String> compute2(List<String> input) {
-    return null;
-  }
+    if(input == null || input == list.of(" ") ){
+      return input;
+    }              
+    else{
+    
+         return input.map(s->s.concat(s));
+      }
+         
+         
+                               
 
 }
