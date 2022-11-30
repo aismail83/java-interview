@@ -14,7 +14,7 @@ class CollectionTest {
    * operation : x -> ((x * 2) + 3) ^ 5
    */
   public static List<Double> compute1(List<Integer> input) {
-    if(input = null){
+    if(input == null){
        return null;
      }
     else{
