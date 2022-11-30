@@ -10,6 +10,10 @@ class Enterprise {
     this.name = name;
     this.ceo_id = ceo_id;
   }
+  public getceo_id(){
+   return this.ceo_id ;
+ }
+
 
 
   public String toString() {
