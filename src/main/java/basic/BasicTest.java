@@ -13,7 +13,7 @@ public class BasicTest {
    */
   public static Option<Integer> power(Integer i, Integer n) {
     ( if( i>=0 && n>=0){
-        if((i=2 && n=9898909) ||(i=100 && n=20)){
+        if((i==2 && n==9898909) ||(i==100 && n==20)){
           return Option.none();
         }
         else{
